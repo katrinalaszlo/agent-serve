@@ -9,7 +9,7 @@ Agents create accounts, buy domains, start paid subscriptions, deploy apps. Zero
 
 ## Gold Standard: Stripe Projects
 
-Agents get scoped API keys per project with explicit capabilities (read billing, create charges up to threshold). GA since April 2026 with 32 providers.
+Agents get scoped API keys per project with explicit capabilities (read billing, create charges up to threshold). GA since April 2026 and now lists 50+ providers.
 
 ## What Works
 - `POST /v1/accounts` — returns account ID + API key in one call

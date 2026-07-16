@@ -60,6 +60,6 @@ For most SaaS building agent-friendly purchasing: accept saved `pm_...` via your
 
 ## Stripe Projects (GA since April 2026)
 
-Stripe Projects is a curated marketplace where agents get scoped API keys, discover services from a catalog, and pay via one-time-use virtual cards. Launched at Sessions 2026 with 32 providers. To join as a provider, apply through Stripe's provider intake.
+Stripe Projects is a curated marketplace where agents get scoped API keys, discover services from a catalog, and pay via one-time-use virtual cards. Launched at Sessions 2026 and now lists 50+ providers. To join as a provider, apply through Stripe's provider intake.
 
 Most SaaS should still focus on the Setup Intent + Subscriptions API pattern first — Projects is additive, not a prerequisite.

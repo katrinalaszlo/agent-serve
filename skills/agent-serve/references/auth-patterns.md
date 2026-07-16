@@ -27,7 +27,7 @@ Simple, effective:
 
 ## Shipping Now: Web Bot Auth
 
-Web Bot Auth is a profile of RFC 9421 (HTTP Message Signatures) specifically for bot authentication. The IETF Web Bot Auth WG was chartered in early 2026. RFC 9421 is the generic signatures standard; Web Bot Auth narrows it to agent identity verification at WAFs.
+Web Bot Auth is a profile of RFC 9421 (HTTP Message Signatures) specifically for bot authentication. The IETF Web Bot Auth WG charter was approved and the group became active on October 23, 2025. RFC 9421 is the generic signatures standard; Web Bot Auth narrows it to agent identity verification at WAFs.
 
 Agents register public keys in a well-known directory; WAFs verify identity without CAPTCHA. Implementations (as of early 2026): Cloudflare, AWS WAF, Vercel, Shopify, Akamai. Visa Trusted Agent Protocol and Mastercard Agent Pay address the same agent identity problem at the card network layer. Amazon Bedrock AgentCore Browser uses HTTP Message Signatures to reduce CAPTCHAs.
 

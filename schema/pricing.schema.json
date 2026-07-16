@@ -290,7 +290,7 @@
         "data_residency": {
           "type": "array",
           "items": { "type": "string" },
-          "description": "Available data residency regions (ISO 3166-1 codes)"
+          "description": "Available data residency regions or country codes (for example, 'US', 'EU', or ISO 3166-1 country codes)"
         },
         "dpa_url": {
           "type": "string",
