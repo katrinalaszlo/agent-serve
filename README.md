@@ -1,6 +1,6 @@
 # agent-serve
 
-Make your product self-serve for AI agents.
+Find where agents fail in your product, then fix the two failures that matter.
 
 ## Install
 
@@ -10,9 +10,11 @@ npx skills add katrinalaszlo/agent-serve
 
 ## What this is
 
-A skill that finds what's blocking agents from using your product and tells you exactly what to build to fix it.
+A skill that audits your product the way an agent experiences it and tells you what to build at each point of friction.
 
-Agents are becoming buyers. If they can't sign up, authenticate, pay, and use your product programmatically, they'll route spend to competitors that let them self-serve.
+Agent traffic is no longer hypothetical. Mintlify reported that agents went from 15% to 66% of its docs traffic in seven months (213M agent requests vs 105M human page loads, July 2026). Most of that traffic is reading, not buying, and that's the honest version of the story: agents research products at scale today, and when one tries to go further it usually can't. Signup wants a CAPTCHA it can't solve. Payment wants a browser checkout it can't drive. The agent doesn't complain to you about this. It reports back to its human, or moves on, and nothing shows up in your analytics either way.
+
+Readiness scanners will score you on this. None of them repair it. This skill is the diagnostic half; the repair for the two hardest failures, signup and payment, is [tanso-oss](https://github.com/tansohq/tanso-oss), an open-source engine that adds machine-readable pricing, one-call agent signup, and saved-card payment with a 402 fallback on top of the Stripe stack you already run.
 
 ## Usage
 
@@ -59,6 +61,8 @@ For each area, the skill tells you:
 - "Contact sales" gates
 - PDF-only documentation
 - Dashboard-only configuration
+
+These fixes are measurable, not cosmetic. Adding an llms.txt alone cut one documentation site's agent 404s from 2.23 to 0.11 per retrieval. The signup and payment fixes are where [tanso-oss](https://github.com/tansohq/tanso-oss) picks up.
 
 ## What's next
 
